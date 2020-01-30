@@ -1,0 +1,128 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(
+      to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .fa-hand-rock {
+    color: #051937;
+  }
+  .fa-hand-paper {
+    color: #00bf72;
+  }
+  .fa-hand-scissors {
+    color: #004d7a;
+  }
+  
+  #clock img {
+    width: 10%;
+    margin-bottom: 12px;
+  }
+  
+  #clock p {
+    margin-bottom: 24px;
+  }
+  
+  #clock h4 {
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 8px;
+    font-weight: 300;
+    margin-bottom: 24px;
+    width: 50%;
+  }
+  
+  .player-a,
+  .player-b {
+    background: transparent;
+    border: 1px solid #051937;
+    color: white;
+  }
+  
+  .winner {
+    background-color: #004d2e;
+    color: #fff;
+    -moz-box-shadow: 0 0 5px 5px #3fc28d;
+    -webkit-box-shadow: 0 0 5px 5px#3fc28d;
+    box-shadow: 0 0 5px 5px #3fc28d;
+  }
+  
+  .draw {
+    background-color: #555;
+    color: #fff;
+    -moz-box-shadow: 0 0 5px 5px #333;
+    -webkit-box-shadow: 0 0 5px 5px#333;
+    box-shadow: 0 0 5px 5px #3333;
+  }
+  
+  #clock i {
+    font-size: 200px;
+  }
+  
+  #clock input {
+    border: 1px solid #a8eb12;
+    border-radius: 20px;
+    background: transparent;
+    color: #a8eb12;
+    font-size: 24px;
+    font-weight: 300;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #control button {
+    border: none;
+    border-radius: 50px;
+    padding: 10px 54px;
+  }
+  
+  #control .start {
+    background-image: linear-gradient(
+      to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12
+    );
+  }
+  
+  /*Media Queries */
+  @media (max-width: 576px) {
+    body {
+      height: 110vh;
+    }
+  
+    #clock p {
+      margin-bottom: 24px;
+    }
+  
+    #clock h2 {
+      font-size: 34px;
+    }
+    #clock i {
+      font-size: 100px;
+    }
+    #clock h4 {
+      border-radius: 20px;
+      padding: 4px;
+      font-weight: 150;
+      font-size: 18px;
+      width: 25%;
+    }
+  
+    #clock input {
+      width: 25%;
+      margin: 0 auto;
+      margin-bottom: 12px;
+    }
+  }
+  

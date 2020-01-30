@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Rock,Paper Scissor</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+	<div id="clock">
+		<div class="container text-center py-5">
+			<h2 class="display-4 text-white">Rock, Paper, Scissor Game</h2>
+			<p class="lead text-white">Choose Your Player and Click Start</p>
+			<div class="row">
+				<div class="col-sm-6 col-md-6 col-lg-6 text-center">
+					<h4 class="player-a">Team A</h4>
+					<i id="handA" class="fas fa-play"></i>
+                    <div class="mx-auto mt-2">
+                        <input class="form-control text-center" disabled id="nameA" value="Hit Start to Play"></input>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 mx-auto text-center">
+                    <h4 class="player-b">Team B</h4>
+                    <i id="handB" class="fas fa-play"></i>
+                    <div class="mx-auto mt-2">
+                        <input class="form-control text-center" disabled id="nameB" value="Hit Start to Play"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="control">
+        <div class="container text-center">
+            <button class="start btn btn-info btn-lg" id="play">Start</button>
+            <button class="stop btn btn-danger btn-lg" id="stop">Stop</button>
+            <button class="stop btn btn-dark btn-lg" id="play-again">Play Again</button>
+        </div>
+    </div>
+    <script defer src="./index.js"></script>
+</body>
+
+</html>
